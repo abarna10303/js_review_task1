@@ -1,5 +1,5 @@
 let age=parseInt(prompt("Enter the Age"));
-let parentpermission=true;
+let parentpermission=confirm("Enter the Parent Permission");
 if(age<16)
 {
     if(parentpermission==true)
